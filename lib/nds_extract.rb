@@ -26,7 +26,12 @@ end
 
 def list_of_directors(source)
   # Write this implementation
-  
+  list = {}
+  director_index = 0 
+  while director_index < source.size do 
+    list << source[director_index]
+    director_index += 1 
+    
   
 end
 
